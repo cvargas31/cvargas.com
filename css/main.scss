@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap');
+
+// Variables Color
+
+
+// Globals
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Poppins', arial ;
+  background-color: rgb(243, 244, 237);
+}
+
+// Images
+#logo {
+  margin-top: -5px;
+}
+
+
+// Container
+
+.container{
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+#nav-container {
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.list-container {
+  max-width: 350px;
+  margin: 0 auto;
+  margin-top: 5px;
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: #046582;
+    font-weight: 300;
+    letter-spacing: 0.10rem;
+  }
+  a:hover {
+    border-bottom: 1px solid #046582;
+    padding-bottom: -10px;
+  }
+}
+
+
+#home{
+  padding-top: 60px;
+  min-height: 100vh;
+  z-index: 1;
+  background:rgb(243, 244, 237);
+  position: relative;
+  // background: linear-gradient(0deg, rgba(4,101,130,1) 40vh,  rgba(243,244,237,1) 40vh);
+}
+
+
+// Headings
+
+#navbar h2{
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #046582;
+  display: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.name {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #046582;
+}
+
+.position {
+  font-size: 1,5rem;
+  letter-spacing: 5px;
+  color: #046582;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 1rem;
+  color: #046582;
+  text-align: center;
+}
+// Home
+.social-icons{
+  max-width: 250px;
+  padding-top: 25px;
+  margin: 0 auto;
+}
+
+.button{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  
+  button {
+    padding: 0.35rem 0.875rem;
+    border: 1px solid black;
+    border-color: transparent;
+    background-color: #046582;
+    border-radius: 0.625rem;
+    letter-spacing: 0.7px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Poppins', arial;
+  }
+}
+
+// Portfolio Section
+
+
+
+// Section 2
+
+#portfolio{
+  background-color: #046582;
+  height: 100vh;
+}
+
+// Scroll Down
+
+.scroll-down{
+  height: 50px;
+  width: 30px;
+  border: 2px solid #046582;
+  position: absolute;
+  left: 47%;
+  bottom: 50%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after{
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  border: 2px solid #046582;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down::after{
+  top: 30%;
+  animation-delay: .3s;
+}
+
+@keyframes scroll-down{
+  0%{
+    opacity: 0;
+  }
+  30%{
+    opacity: 1;
+  }
+  60%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    top: 90%;
+  }
+}
+
+// Flexbox
+
+.flex {
+  display: flex;
+
+  &-fd-c{
+    flex-direction: column;
+  }
+
+  &-jc-c{
+    justify-content: center;
+  }
+
+  &-ai-c{
+    align-items: center;
+  }
+
+  &-jc-sb{
+    justify-content: space-between;
+  }
+
+}
