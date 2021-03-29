@@ -249,6 +249,73 @@ h1 {
   width: 40px;
 }
 
+#contact-me {
+  min-height: 100vh;
+  z-index: 1;
+  background: #046582;
+  position: relative;
+}
+
+#intro-text-contact {
+  padding-top: 80%;
+}
+
+h3 {
+  text-align: center;
+}
+
+.contact-text {
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+  color: #f3f4ed;
+  font-weight: 700;
+}
+
+.position-1 {
+  color: #f3f4ed;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.button-1 {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  font-size: 0.75em;
+  font-family: 'Poppins', arial;
+  font-weight: 300;
+  color: #046582;
+  background-color: #f3f4ed;
+  text-align: center;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.button-1:hover {
+  background-color: #046582;
+  color: #d9dad6;
+  border: 1px solid #d9dad6;
+}
+
 .scroll-down {
   height: 50px;
   width: 30px;
