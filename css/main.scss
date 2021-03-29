@@ -63,7 +63,7 @@ body{
   padding-top: 60px;
   min-height: 100vh;
   z-index: 1;
-  background:rgb(243, 244, 237);
+  background:#f3f4ed;
   position: relative;
   // background: linear-gradient(0deg, rgba(4,101,130,1) 40vh,  rgba(243,244,237,1) 40vh);
 }
@@ -92,7 +92,7 @@ h1 {
 }
 
 .position {
-  font-size: 1,5rem;
+  font-size: 1.5rem;
   letter-spacing: 5px;
   color: #046582;
   font-weight: 500;
@@ -137,9 +137,68 @@ h1 {
 
 #portfolio{
   background-color: #046582;
-  height: 100vh;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
 }
 
+.project-content{
+  text-align: center;
+  color: #f3f4ed;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+.portfolio-content{
+  background-color: #f3f4ed;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.my-work{
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: #f3f4ed;
+  letter-spacing: 2px;
+}
+
+
+
+.project-title{
+  color: #046582;
+}
+
+.project-description{
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #046582;
+}
+
+
+.img-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.card{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 470px;
+  border-radius: 20px 20px 0 0
+}
+
+
+.technologies{
+  font-size: 1.5rem;
+  color: #046582;
+}
 // Scroll Down
 
 .scroll-down{
