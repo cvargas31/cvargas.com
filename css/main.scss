@@ -486,6 +486,35 @@ h3{
 
 // media queries 
 
+@media only screen and (min-width: 360px){
+  #home{
+    padding-top: 100px;
+  }
+
+  .scroll-down{
+    bottom: 25%;
+  }
+
+  #nav-container{
+    max-width: 300px;
+  }
+
+
+  .about-me-container, .skill-stack-container, .portfolio-container{
+    max-width: 340px;
+  }
+
+  #intro-text-contact{
+    padding-top: 60%;
+  }
+
+  #about-me{
+    padding: 0;
+  }
+  .btn-container{
+    max-width: 55%;
+  }
+}
 @media only screen and (min-width: 800px) {
 
   #nav-container {
