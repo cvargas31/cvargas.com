@@ -1,0 +1,24 @@
+{
+  "name": "cvargas.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "gh-pages -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvargas31/cvargas.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://cvargas31.github.io/cvargas.com",
+  "bugs": {
+    "url": "https://github.com/cvargas31/cvargas.com/issues"
+  },
+  "homepage": "https://github.com/cvargas31/cvargas.com#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
