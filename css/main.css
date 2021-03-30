@@ -330,6 +330,10 @@ h3 {
   font-weight: 200;
 }
 
+.project-cards {
+  text-decoration: none;
+}
+
 .btn-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -519,10 +523,6 @@ h3 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.project-cards {
-  text-decoration: none;
 }
 
 .project-cards > .portfolio-content {

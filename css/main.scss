@@ -322,6 +322,10 @@ h3{
   font-weight: 200;
 }
 
+.project-cards{
+  text-decoration: none;
+}
+
 // Buttons
 
 .btn-container{
@@ -469,9 +473,6 @@ h3{
 
 }
 
-.project-cards{
-  text-decoration: none;
-}
 
 .project-cards>.portfolio-content {
   transition: transform 0.9s;
