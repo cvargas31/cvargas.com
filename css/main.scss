@@ -469,6 +469,20 @@ h3{
 
 }
 
+.project-cards{
+  text-decoration: none;
+}
+
+.project-cards>.portfolio-content {
+  transition: transform 0.9s;
+}
+
+.project-cards>.portfolio-content:hover {
+  transform: scale(.95);
+}
+
+
+
 // media queries 
 
 @media only screen and (min-width: 800px) {

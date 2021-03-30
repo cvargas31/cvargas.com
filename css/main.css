@@ -521,6 +521,22 @@ h3 {
           justify-content: space-between;
 }
 
+.project-cards {
+  text-decoration: none;
+}
+
+.project-cards > .portfolio-content {
+  -webkit-transition: -webkit-transform 0.9s;
+  transition: -webkit-transform 0.9s;
+  transition: transform 0.9s;
+  transition: transform 0.9s, -webkit-transform 0.9s;
+}
+
+.project-cards > .portfolio-content:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+
 @media only screen and (min-width: 800px) {
   #nav-container {
     max-width: 700px;
