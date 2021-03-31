@@ -486,7 +486,9 @@ h3{
 
 // media queries 
 
+
 @media only screen and (min-width: 360px){
+
   #home{
     padding-top: 100px;
   }
@@ -508,9 +510,7 @@ h3{
     padding-top: 60%;
   }
 
-  #about-me{
-    padding: 0;
-  }
+
   .btn-container{
     max-width: 55%;
   }
@@ -523,7 +523,12 @@ h3{
     font-size: 0.7em;
   }
 
+  #about-me {
+    padding: 0;
+  }
 }
+
+
 @media only screen and (min-width: 800px) {
 
   #nav-container {
@@ -582,6 +587,9 @@ h3{
     font-size: .8em;
   }
 
+  #about-me {
+    padding: 75px 0;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -664,4 +672,8 @@ h3{
   .list-container {
     margin-right: 100px;
   }
+
+  #about-me {
+    padding: 50px 0;
+}
 }
