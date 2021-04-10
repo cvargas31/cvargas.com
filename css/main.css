@@ -525,18 +525,6 @@ h3 {
           justify-content: space-between;
 }
 
-.project-cards > .portfolio-content {
-  -webkit-transition: -webkit-transform 0.9s;
-  transition: -webkit-transform 0.9s;
-  transition: transform 0.9s;
-  transition: transform 0.9s, -webkit-transform 0.9s;
-}
-
-.project-cards > .portfolio-content:hover {
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
-}
-
 @media only screen and (min-width: 360px) {
   #home {
     padding-top: 100px;
