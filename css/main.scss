@@ -62,7 +62,7 @@ body{
   z-index: 100;
   padding-top: 9px;
   background-color: #f3f4ed;
-  height: 75px;
+  height: 100px;
   width: 100%;
 }
 
@@ -389,6 +389,7 @@ h3{
   font-family: 'Poppins', arial;
   font-weight: 300;
   color: #f3f4ed;
+  border: 1px solid transparent;
   background-color:#046582;
   text-align: center;
   transition: all 0.2s;
@@ -474,16 +475,6 @@ h3{
 }
 
 
-// .project-cards>.portfolio-content {
-//   transition: transform 0.9s;
-// }
-
-// .project-cards>.portfolio-content:hover {
-//   transform: scale(.95);
-// }
-
-
-
 // media queries 
 
 
@@ -502,7 +493,7 @@ h3{
   }
 
 
-  .about-me-container, .skill-stack-container, .portfolio-container{
+  .about-me-container, .skill-stack-container{
     max-width: 340px;
   }
 
@@ -556,9 +547,9 @@ h3{
 
   }
 
-  .portfolio-container{
-    max-width: 700px;
-  }
+  // .portfolio-container{
+  //   width: 500px;
+  // }
 
   .card {
     width: 706px;
