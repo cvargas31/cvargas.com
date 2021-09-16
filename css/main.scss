@@ -60,7 +60,7 @@ body{
   position: sticky;
   top: 0;
   z-index: 100;
-  padding-top: 9px;
+  padding-top: 30px;
   background-color: #f3f4ed;
   height: 100px;
   width: 100%;
@@ -71,9 +71,9 @@ body{
   margin: 0 auto;
 }
 
-#nav-container {
-  margin-top: 1rem;
-}
+// #nav-container {
+//   margin-top: 1rem;
+// }
 
 
 .list-container {
@@ -183,6 +183,7 @@ h1 {
 .portfolio-content{
   background-color: #f3f4ed;
   padding-bottom: 20px;
+  border-radius: 10px;
 }
 
 .my-work{
@@ -219,6 +220,7 @@ h1 {
   background-repeat: no-repeat;
   height: 25vh;
   width: 470px;
+  border-radius: 10px 10px 0 0;
 }
 
 
@@ -627,6 +629,7 @@ h3{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 40px;
+    border-radius: 20px;
   }
 
   .portfolio-content{
