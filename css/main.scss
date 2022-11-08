@@ -69,6 +69,7 @@ body{
 .container{
   max-width: 400px;
   margin: 0 auto;
+  width: 100%;
 }
 
 // #nav-container {
@@ -142,6 +143,12 @@ h1 {
   color: #046582;
   text-align: center;
 }
+
+@media screen and (max-width: 500px) {
+  .description {
+    font-size: 14px;
+  }
+}
 // Home
 .social-icons{
   max-width: 250px;
@@ -178,6 +185,7 @@ h1 {
   font-weight: bold;
   font-size: 1.3rem;
   margin-top: 20px;
+  padding: 5px;
 }
 
 .portfolio-content{
@@ -232,7 +240,10 @@ h1 {
 // About Me
 
 .about-me-container{
-  margin-top: 40px;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 #about-me{
@@ -254,26 +265,30 @@ h1 {
 }
 
 .description{
-  padding-top: 20px;
   text-align: justify;
 }
 
 #about-me .tech li{
   width: 25%;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
-.skill-stack{
-  margin-top: 100px;
-}
+
 
 .tech{
   list-style: none;
   display: flex;
+  align-items: baseline;
   justify-content: space-evenly;
   flex-wrap: wrap;
   text-align: center;
-  margin-bottom: 1.6rem;
+}
+
+@media screen and (max-width:500px) {
+  .tech {
+    align-items: center;
+    row-gap: 20px;
+  }
 }
 
 .skill-stack-title{
@@ -293,14 +308,25 @@ h1 {
   width: 35px;
 }
 
+@media screen and (max-width: 500px) {
+  .tech>li>img{
+    width: 30px;
+  }
+  .tech > li > p {
+    font-size: 12px;
+  }
+}
+
 // Contact me
 
 #contact-me{
   min-height: 100vh;
   z-index: 1;
-  background:#046582;
+  background: #046582;
   position: relative;
-  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #intro-text-contact{
@@ -497,10 +523,12 @@ h3{
 
   .about-me-container, .skill-stack-container{
     max-width: 340px;
+    display: flex;
+    flex-direction: column;
   }
 
   #intro-text-contact{
-    padding-top: 60%;
+    padding-top: 0;
   }
 
 
