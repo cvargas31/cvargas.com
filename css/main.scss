@@ -247,7 +247,6 @@ h1 {
 }
 
 #about-me{
-  height: 100vh;
   background-color: #f3f4ed;
   margin: 0 auto;
   text-align: center;
@@ -544,9 +543,7 @@ h3{
     font-size: 0.7em;
   }
 
-  #about-me {
-    padding: 0;
-  }
+
 }
 
 
@@ -608,9 +605,6 @@ h3{
     font-size: .8em;
   }
 
-  #about-me {
-    padding: 75px 0;
-  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -700,7 +694,4 @@ h3{
     max-width: 1600px;
   }
 
-  #about-me {
-    padding: 130px 0;
-}
 }

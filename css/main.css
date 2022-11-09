@@ -253,7 +253,6 @@ h1 {
 }
 
 #about-me {
-  height: 100vh;
   background-color: #f3f4ed;
   margin: 0 auto;
   text-align: center;
@@ -595,9 +594,6 @@ h3 {
   .name {
     font-size: 0.7em;
   }
-  #about-me {
-    padding: 0;
-  }
 }
 
 @media only screen and (min-width: 800px) {
@@ -646,9 +642,6 @@ h3 {
   .button-1 {
     padding: 0.9em 1em;
     font-size: .8em;
-  }
-  #about-me {
-    padding: 75px 0;
   }
 }
 
@@ -721,9 +714,6 @@ h3 {
   }
   .portfolio-container {
     max-width: 1600px;
-  }
-  #about-me {
-    padding: 130px 0;
   }
 }
 /*# sourceMappingURL=main.css.map */
